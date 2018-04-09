@@ -180,7 +180,6 @@ public class Group implements Commissar {
 
     @Override
     public String toString() {
-//        sortGroup();
         String retVal = "Список студентов:" + '\n';
         for (Student st : studentArr) {
             retVal += (st + "\n");
